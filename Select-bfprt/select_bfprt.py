@@ -59,6 +59,6 @@ def select_bfprt(arr, k, r=5):
 if __name__ == "__main__":
     # Teste rápido:
     vetor = [12, 3, 5, 7, 19, 26, 4, 2, 9, 23, 90, 7, 3, 2, 65]
-    k = 9  # Para buscar o 3º menor elemento (considerando indexação 0: [menor, 2º, 3º, ...])
+    k = 3  # Para buscar o 3º menor elemento (considerando indexação 0: [menor, 2º, 3º, ...])
     resultado = select_bfprt(vetor, k)
     print("K-th smallest element é:", resultado)
