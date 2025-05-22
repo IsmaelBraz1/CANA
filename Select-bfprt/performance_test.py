@@ -43,7 +43,7 @@ def performance_test(num_instances, r=3):
     return total_time, average_time
 
 if __name__ == "__main__":
-    num_instances = 10000  # 1 milhão de instâncias 
+    num_instances = 10000  # instâncias 
     r = 3  # Tamanho do grupo para a mediana de medianas 
     
     print("Iniciando os testes de performance...")
